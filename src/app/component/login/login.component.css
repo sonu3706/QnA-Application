@@ -1,0 +1,44 @@
+.query-card {
+  width: 500px;
+  background-color: whitesmoke;
+}
+
+
+/* .example-container > * {
+  width: 75%;
+} */
+
+
+/* .example-right-align {
+  text-align: center;
+} */
+
+
+/* input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+} */
+
+
+/* input.example-right-align {
+  -moz-appearance: textfield;
+}  */
+
+.flex-container {
+  /* margin: 0;
+  padding: 0; */
+  height: 100vh;
+}
+
+.card-button {
+  border-radius: 12px;
+  text-align: center;
+  /* left: 475px; */
+}
+
+.query-card:hover {
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 16px 16px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 16px 16px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 16px 16px;
+}

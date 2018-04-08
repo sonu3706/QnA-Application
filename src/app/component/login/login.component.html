@@ -1,0 +1,29 @@
+<div class="flex-container" fxLayout="row" fxLayoutAlign="center center" fxLayout.xs="column" fxLayoutAlign.xs="center stretch">
+  <mat-card class="query-card">
+    <mat-card-header>
+
+      <mat-card-title class="card-title">
+
+        <h3>Login Form</h3>
+
+      </mat-card-title>
+
+    </mat-card-header>
+    <mat-card-content>
+      <div class="example-container" fxLayout="column">
+        <mat-form-field>
+          <input class="emailId" matInput placeholder="Enter your email" [formControl]="email" [(ngModel)]="emailId" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+          <input class="password" matInput placeholder="Enter your password" [(ngModel)]="password" [type]="hide ? 'password' : 'text'">
+          <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+        </mat-form-field>
+      </div>
+    </mat-card-content>
+    <mat-card-actions fxLayoutAlign="end end">
+      <button class="card-button" mat-raised-button color="primary" (click)="login()">Login</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,34 @@
+.answer-card {
+    padding-top: 10px;
+    border: 2px solid beige;
+    width: 800px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: black;
+    
+  }
+  
+  .mat-card-title {
+    color: aqua;
+  }
+  .mat-card-subtitle {
+  
+    color: beige;
+  }
+  
+  
+  /* h6{
+    color: aliceblue;
+  } */
+  
+  .flex-container {
+    height: 20vh;
+  }
+  
+  .answer-card:hover {
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 16px 16px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 16px 16px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 16px 16px 16px;
+  }
+  

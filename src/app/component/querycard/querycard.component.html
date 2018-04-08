@@ -1,0 +1,17 @@
+<div class="flex-container" fxLayout="column" fxLayoutAlign="space-around center" *ngFor="let q of query">
+
+  <mat-card class="query-card" routerLink="/answer">
+    <mat-card-header>
+      <mat-card-title>
+        <h6>
+          <b>{{q.question}}</b>
+        </h6>
+      </mat-card-title>
+      <mat-card-subtitle fxLayout="column" fxLayoutAlign="end start">
+        Posted By: {{q.PostedBy}}
+        <p> Date: {{q.Date}}</p>
+      </mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
+
+</div>

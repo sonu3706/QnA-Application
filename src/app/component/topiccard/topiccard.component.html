@@ -1,0 +1,25 @@
+<mat-card class="example-card ripplelink">
+  <mat-card-header fxLayout="column" fxLayoutAlign="start start">
+    <mat-card-title>
+      <h2>{{a.topic}}</h2>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <strong>{{a.desc}}</strong>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <img class="image" mat-card-image src={{a.img}} alt="{a.logo}">
+  <mat-card-content fxLayout="row" fxLayoutAlign="space-between center">
+    <div class="card-content">
+      <p>
+        <strong>{{a.contentText}}</strong>
+      </p>
+    </div>
+    <div class="card-content value">
+      <p>{{a.contentValue}}</p>
+    </div>
+  </mat-card-content>
+  <!-- <mat-card-actions fxLayout="row" fxLayoutAlign="space-evenly center">
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions> -->
+ </mat-card>
